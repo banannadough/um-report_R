@@ -82,6 +82,7 @@ ggplot(data = gapminder_data) +
   geom_line()
 
 
+
 # Bloxplot of distribution of life expectancies per continent
 ggplot(data = gapminder_data) +
   aes(x = continent, y = lifeExp) +
